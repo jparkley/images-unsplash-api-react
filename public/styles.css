@@ -1,0 +1,33 @@
+html {display:table; width:100%;}
+body {display:table-cell; text-align:center; vertical-align:middle;}
+
+.search-box {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5rem;
+  background: #81d4fa; /* Fallback for browsers that don't support gradients */
+	background: linear-gradient(#e1f5fe, #81d4fa)  no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.search-label {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 30px;
+}
+
+.centered {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wide {
+  width: 100%;
+  font-size:1.1rem;
+}
+
+.box {
+  margin: 10px;
+}
